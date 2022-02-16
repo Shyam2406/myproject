@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #2c383f;
+}
+
+
+
+.wrapper{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    max-width: 350px;
+    width: 100%;
+    background: white;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px;
+}
+
+.wrapper h2{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 30px;
+    color:#f8171e;
+}
+
+.wrapper .input_field{
+    margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper .input_field .custom_select select,
+.wrapper textarea{
+    width: 100%;
+    border:1px solid #065aa8;
+    padding: 15px;
+}
+
+.wrapper textarea{
+    height: 80px;
+    resize: none;
+}
+
+.wrapper .btn input[type="Submit"]{
+    border:0;
+    margin-top: 15px;
+    width:100%;
+    padding:10px;
+    background: green;
+    color: #e0e0e0;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+
+.wrapper #error_message{
+    margin-bottom: 20px;
+    background: #fe8b8e;
+    text-align:center;
+    font-size:14px;
+    transition: all 0.5s ease;
+}
+
+
+.wrapper #sucess{
+    margin-bottom: 20px;
+    background: #fe8b8e;
+    text-align:center;
+    font-size:14px;
+    transition: all 0.5s ease;
+}
+
+
